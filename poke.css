@@ -1,0 +1,131 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.container > div {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+.space-around {
+    justify-content: space-around;
+  }
+.space-between {
+    justify-content: space-between;
+  }
+.body {
+    background:url("https://i.ytimg.com/vi/T_NOgNXz30E/maxresdefault.jpg");
+    height:99%;
+    width:99%;
+  }
+.cuadroderecho{
+    color: rgb(255, 255, 255);
+    width: 400px;
+    height: 585px;
+    background: linear-gradient(-45deg, #ff0000, #fa8181);
+}
+.cuadroizquierdo{
+  color: rgb(255, 255, 255);
+  width: 400px;
+  height: 600px;
+  background: linear-gradient(-45deg, #fa8181, #ff0000);
+}
+.cuadroc{
+  color: rgb(255, 255, 255);
+  width: 400px;
+  height: 100px;
+  background: linear-gradient(-45deg, #000000, #fc7b7b);
+}
+
+.boton1{
+  position:absolute;
+  top: 574px;
+  left: 315px;
+  width: 280px;
+  height: 35px;
+  border:solid 1px #ff9100;
+  border-radius:10px;
+  background: rgb(250, 162, 0);
+}
+.boton2{
+  position:absolute;
+  top: 573px;
+  left: 615px;
+  width: 45px;
+  height: 45px;
+  border:solid 1px #ff0000;
+  border-radius:75%;
+  background: rgb(255, 0, 0);
+}
+.boton3{
+  position:absolute;
+  top: 515px;
+  left: 315px;
+  width: 45px;
+  height: 45px;
+  border:solid 1px #001aff;
+  border-radius:75%;
+  background: rgb(0, 38, 255);
+}
+.boton4{
+  position:absolute;
+  top: 100px;
+  left: 315px;
+  width: 55px;
+  height: 55px;
+  border:solid 1px #5a80ff;
+  border-radius:75%;
+  background: rgb(104, 164, 243);
+}
+.boton5{
+  position:absolute;
+  top: 100px;
+  left: 375px;
+  width: 25px;
+  height: 25px;
+  border:solid 1px #ca6f6f;
+  border-radius:75%;
+  background: rgb(245, 118, 118);
+}
+.boton6{
+  position:absolute;
+  top: 100px;
+  left: 410px;
+  width: 25px;
+  height: 25px;
+  border:solid 1px #eeff00;
+  border-radius:75%;
+  background: rgb(251, 255, 0);
+}
+.boton7{
+  position:absolute;
+  top: 100px;
+  left: 445px;
+  width: 25px;
+  height: 25px;
+  border:solid 1px #00ff2a;
+  border-radius:75%;
+  background: rgb(0, 255, 42);
+}
+
+.Mostrar{
+  position:absolute;
+  text-align: center;
+  top: 180px;
+  left: 320px;
+  width: 325px;
+  height: 330px;
+  border:solid 1px #000000;
+  border-radius:10%;
+  background: rgb(107, 107, 107);
+}
+
+.MostrarImagen{
+  color: rgb(0, 0, 0);
+  position:absolute;
+  top: 150px;
+  left: 725px;
+  width: 325px;
+  height: 400px;
+  border:solid 1px #000000;
+  border-radius:10%;
+  background: rgb(255, 255, 255);
+}
